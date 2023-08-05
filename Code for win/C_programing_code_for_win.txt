@@ -1,0 +1,2 @@
+code for win==loop 
+find number of digit in a number(unsolve)
