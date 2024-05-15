@@ -9,14 +9,13 @@ int main()
         scanf("%d", &b);
         c *= b;
     }
-    
+
     for (j = 1; j <= c; ++j)
     {
-        if(c%j == 0)
+        if (c % j == 0)
         {
             d *= j;
         }
-        
     }
     printf("%d\n", d);
 

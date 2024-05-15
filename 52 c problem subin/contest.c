@@ -9,7 +9,7 @@ int main()
         scanf("%d", &b);
         c *= b;
     }
-    
+    printf("%d\n", c);
     for (j = 1; j <= c; ++j)
     {
         if(c%j == 0)
@@ -18,7 +18,7 @@ int main()
         }
         
     }
-    printf("%d\n", d);
+    printf("%d", d);
 
     return 0;
 }
